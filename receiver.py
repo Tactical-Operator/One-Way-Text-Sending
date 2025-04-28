@@ -2,7 +2,7 @@ from pymongo import MongoClient
 import time
 
 # Replace with your MongoDB URI
-MONGO_URI = "mongodb+srv://ashwin_141:ashwin_chat_1234@cluster0.6flcgip.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_URI = ""
 
 client = MongoClient(MONGO_URI)
 db = client["chat"]
