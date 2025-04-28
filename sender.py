@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 
-Mongo_URL="Tour MONGODB CLUSTER LINK "
+Mongo_URL="Your MONGODB CLUSTER LINK "
 
 client=MongoClient(Mongo_URL)
 db=client["chat"]
